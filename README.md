@@ -43,7 +43,7 @@ bimap.get5 = get5;
 var someObj = {x:1, y:2};
 bimap.someObj = someObj;
 
-console.log(bimap.get5()); // 5
+console.log(bimap.get5());    // 5
 console.log(bimap.someObj.x); // 1
 ```
 
@@ -63,7 +63,7 @@ var anotherObj = {z:3};
 var oneMoreObj = {w:4};
 bimap._set(anotherObj, oneMoreObj);
 
-// console.log(bimap.[anotherObj]);  // this is undefined
+// console.log(bimap.[anotherObj]);   // this is undefined
 console.log(bimap._get(anotherObj));  // this works: "{ w: 4 }"
 ```
 
